@@ -1,5 +1,7 @@
+version: 2026.232.0520
 playwright:
     candy:
+        version: 2026.144.1443
         description: |
             Installs the Playwright browser-automation CLI globally via npm so `playwright` is on PATH (OpenClaw AI snapshots).
             The candy depends on nodejs and ships a package.json pinning the
@@ -11,7 +13,7 @@ playwright:
             and `playwright --help` lists the core automation commands (install,
             codegen) that define the CLI surface.
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
+            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
         plan:
             - check: the playwright binary is installed into the npm global bin directory
               file:
