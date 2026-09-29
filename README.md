@@ -51,7 +51,7 @@ and `codegen` commands that define the CLI surface.
 
 ## Related
 
-- Owning skill: `/charly-hermes:playwright-layer`
+- Family skill: `/charly-hermes:playwright-layer` (this repo carries no `skill:` entity — see `AGENTS.md`)
 - Browser dependency: `/charly-coder:nodejs`
 - Alternative automation: `/charly-check:cdp` (Chrome DevTools Protocol)
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
